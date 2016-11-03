@@ -1,7 +1,7 @@
 {
-  "name": "angular2-webpack",
+  "name": "angular2-webpack-shell",
   "version": "1.0.0",
-  "description": "A webpack starter for Angular",
+  "description": "A webpack starter for Angular2 with a shell",
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
