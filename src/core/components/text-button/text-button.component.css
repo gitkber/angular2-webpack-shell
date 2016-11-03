@@ -1,0 +1,19 @@
+.text-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .4em .6em;
+  cursor: pointer;
+  height: 1.2em;
+  border-radius: .05em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-button:hover {
+  background: rgba(127, 127, 127, .25);
+}
+
+.text-button:active {
+  background: rgba(127, 127, 127, .4);
+}

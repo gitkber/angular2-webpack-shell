@@ -1,0 +1,15 @@
+<div class="shell">
+  <top-bar (switchMenuClick)="swithMenuVisibility()"></top-bar>
+
+  <div class="body">
+    <left-bar [class.visible]="isMenuVisible"></left-bar>
+    
+    <div class="content">
+      <ng-content></ng-content>
+    </div>
+
+    <!--right-bar></right-bar-->
+  </div>
+
+  <footer></footer>
+</div>
