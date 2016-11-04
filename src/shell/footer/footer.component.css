@@ -1,8 +1,15 @@
 .footer {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   background: #666;
   min-height: 2em;
-  color: #fff;
-  padding: .5em;
+  color: #aaa;
+  padding: .5em 1.5em;
+  font-size: .8em;
+}
+
+.footer i {
+  color: #ea4b4b;
+  margin-left: .7em;
 }

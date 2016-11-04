@@ -11,6 +11,6 @@ export class Settings {
   }
 
   private go() {
-    this.router.navigate([ '/wall' ]);
+    this.router.navigate([ '/dashboard' ]);
   }
 }

@@ -5,9 +5,14 @@
   padding: .4em .6em;
   cursor: pointer;
   height: 1.2em;
-  border-radius: .05em;
+  border-radius: .1em;
   text-align: center;
   text-transform: uppercase;
+}
+
+.text-button i {
+  margin-right: .8em;
+  font-size: 1.2em;
 }
 
 .text-button:hover {

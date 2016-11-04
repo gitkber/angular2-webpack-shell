@@ -1,24 +1,24 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule }  from '@angular/platform-browser';
 import { FormsModule }   from '@angular/forms';
 
+import { routing, appRoutingProviders } from './pages.routing';
 import { ComponentsModule } from '../core/components/components.module';
 
-import { Wall } from './wall/wall.component';
+import { Dashboard } from './dashboard/dashboard.component';
 import { Settings } from './settings/settings.component';
 
 @NgModule({
   imports: [
-    BrowserModule,
+    routing,
     FormsModule,
     ComponentsModule
   ],
   declarations: [
-    Wall,
+    Dashboard,
     Settings
   ],
   exports: [
-    Wall,
+    Dashboard,
     Settings
   ]
 })

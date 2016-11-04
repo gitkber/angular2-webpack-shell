@@ -1,0 +1,24 @@
+.wall {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 1em;
+  color: #555;
+}
+
+.wall .centered {
+  width: 600px;
+  padding: .5em;
+}
+
+.wall .jumbotron {
+  margin-top: 3em; 
+  padding: 1em;
+  width: initial;
+}
+
+.wall .jumbotron h1 {
+  color: #4d72c1;
+  font-weight: 100;
+  font-size: 1.5em;
+}

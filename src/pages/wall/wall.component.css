@@ -1,8 +1,0 @@
-.wall {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  background: #eee;
-  font-size: 1em;
-  padding: 2em;
-}
