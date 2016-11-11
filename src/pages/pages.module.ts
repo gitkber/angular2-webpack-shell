@@ -6,6 +6,7 @@ import { ComponentsModule } from '../core/components/components.module';
 
 import { Dashboard } from './dashboard/dashboard.component';
 import { Settings } from './settings/settings.component';
+import { Users } from './users/users.component';
 
 @NgModule({
   imports: [
@@ -15,11 +16,13 @@ import { Settings } from './settings/settings.component';
   ],
   declarations: [
     Dashboard,
-    Settings
+    Settings,
+    Users
   ],
   exports: [
     Dashboard,
-    Settings
+    Settings,
+    Users
   ]
 })
 export class PagesModule { }

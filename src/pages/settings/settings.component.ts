@@ -10,7 +10,7 @@ export class Settings {
   constructor(private router: Router) {
   }
 
-  private go() {
-    this.router.navigate([ '/dashboard' ]);
+  private go(url: string) {
+    this.router.navigate([ url ]);
   }
 }
