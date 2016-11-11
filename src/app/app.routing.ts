@@ -1,7 +1,7 @@
 import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+  { path: '', redirectTo: '/users', pathMatch: 'full' }
 ];
 
 export const appRoutingProviders: any[] = [

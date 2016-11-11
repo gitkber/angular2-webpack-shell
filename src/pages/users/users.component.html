@@ -1,3 +1,7 @@
 <div class="users">
-  users
+  
+  <div *ngFor="let user of users" class="card" [routerLink]="[ '/user', user.key ]">
+    {{user.name}}
+  </div>
+
 </div>

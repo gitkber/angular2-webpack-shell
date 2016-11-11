@@ -13,7 +13,8 @@ module.exports = {
   resolve: {
     extensions: ['', '.ts', '.js'],
     alias: {
-      'font-awesome': 'font-awesome/css/font-awesome.min.css'
+      'font-awesome': 'font-awesome/css/font-awesome.min.css',
+      'firebase': 'firebase/firebase.js'
     }
   },
 
@@ -26,6 +27,7 @@ module.exports = {
       { test: /\.css$/, include: helpers.root('src'), loader: 'raw' },
       { test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "url-loader?limit=10000&minetype=application/font-woff" },
       { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader" },
+      { test: /firebase\.js$/, loader: "script" },
     ]
   },
 

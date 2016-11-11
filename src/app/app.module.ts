@@ -7,6 +7,16 @@ import { ShellModule } from '../shell/shell.module';
 import { PagesModule } from '../pages/pages.module';
 
 import { App } from './app.component';
+
+const config = {
+  apiKey: "AIzaSyDY_s4Lx7hJHhRMbDUuiwTiGiw-BbEH644",
+  authDomain: "prjtoto.firebaseapp.com",
+  databaseURL: "https://prjtoto.firebaseio.com",
+  storageBucket: "prjtoto.appspot.com",
+  messagingSenderId: "130899308329"
+};
+  
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -23,4 +33,10 @@ import { App } from './app.component';
   ],  
   bootstrap: [ App ]
 })
-export class AppModule { }
+export class AppModule {
+
+  constructor() {
+    firebase.initializeApp(config);
+  }
+
+ }
